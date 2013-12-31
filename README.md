@@ -7,4 +7,5 @@ This repro contains executables and software needed for multiple Raspberry Pi pr
 Java Communications (RXTX and Pi4j)
 -----------------------------------
 
+I use Java's serial communication capabilities (RXTX) along with I2C to communicate between the Raspberry Pi and various other devices (Arduino, LCD, etc). Running the _communication.sh_
 
