@@ -22,6 +22,7 @@ The dependencies for this install are:
 
 ****Remember to use the _sudo raspi-config_ command to enable the raspi-camera module. 
 
+For more information on how to use the camera module I would recommend quickly reading this: http://www.raspberrypi-spy.co.uk/2013/05/taking-hi-res-photos-with-the-pi-camera-module/ 
 
 
 
