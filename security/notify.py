@@ -10,8 +10,8 @@ import os
 import time
 
 
-USERNAME = "travis.rpi@gmail.com"
-PASSWORD = "darthvad3r"
+USERNAME = "<email>"
+PASSWORD = "<password>"
 
 def sendMail(to, subject, text, files=[]):
 	assert type(to) == list
