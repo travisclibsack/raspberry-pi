@@ -7,7 +7,6 @@ if (( $EUID != 0 )); then
    exit 1 
 fi
 
-echo "Installing gst-streamer1.0 and mjpg-streamer"
-echo "need to also install dependencies"
-sudo apt-get install gst-streamer1.0
+echo "(tput setaf 2)Installing GStreamer...$(tput sgr0)"
+apt-get install get-streamer1.0
 
