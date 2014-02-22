@@ -16,7 +16,7 @@ while True:
 
 	if (Current_State==1 and Previous_State ==0 ):
 		os.system("raspistill -o intruder.jpg -t 10 -q 100")
-	##	os.system("python /home/pi/scripts/python/room_alarm/notify.py")
+		os.system("python <path to notify>")
 		print("sensor triggered!")
 		Previous_State =1
 	elif (Current_State ==1 and Previous_State ==1):
