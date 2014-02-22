@@ -1,3 +1,4 @@
+#GStreamer server starts stream from the Raspberry Pi
 #!/bin/tcsh
 
 set myip=10.0.1.119
