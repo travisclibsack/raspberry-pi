@@ -16,9 +16,11 @@ I use Java's serial communication capabilities (RXTX) along with I2C to communic
 
 Camera
 ------------------------------------
-The _camera_ folder contains a shell file which will automatically install MJPG-streamer, GStreamer 1.0, as well as all of the needed dependencies. For more information about GStreamer (ie. streaming it through a laptop) please visit these two sites:
-GStreamer: http://gstreamer.freedesktop.org
-Laptop steamer: http://robogoby.blogspot.com/2014/01/raspi-camera-gstreamer-10-w-windows-7.html
+The _camera_ folder contains a shell file which will automatically install MJPG-streamer, GStreamer 1.0, as well as all of the needed dependencies. For more information about GStreamer (ie. streaming it through a laptop) please visit this site for GStreamer: http://gstreamer.freedesktop.org and this one for laptop steaming: http://robogoby.blogspot.com/2014/01/raspi-camera-gstreamer-10-w-windows-7.html
+
+The dependencies for this install are: 
+
+****Remember to use the _sudo raspi-config_ command to enable the raspi-camera module. 
 
 
 
