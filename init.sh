@@ -9,7 +9,7 @@ if (( $EUID != 0 )); then
 fi
 
 echo "$(tput setaf 2)Internet connection required.$(tput sgr0)"
-read -p "$(tput bold ; tput setaf 1)Press [Enter] if download origonated in /home/pi 
+read -p "$(tput bold ; tput setaf 1)Press [Enter] if download originated in /home/pi 
                [Ctrl-C] to abort and restart instillation...$(tput sgr0)"
 
 echo "$(tput bold ; tput setaf 1)Remember$(tput sgr0) $(tput setaf 3)Enable Camera and then reboot in Raspi-Config $(tput sgr0)"
